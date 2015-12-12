@@ -7,6 +7,7 @@ namespace PonoGame
 {
     class GenericListEnumerator<T> : IEnumerator<T>
     {
+
         public IGenericList<T> _collection;
         int state = -1;
         public GenericListEnumerator(IGenericList<T> collection)

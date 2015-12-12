@@ -12,6 +12,7 @@ namespace PonoGame
     /// </summary>
     public class PonoGame : Game
     {
+
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         public Paddle PaddleBottom { get; private set; }

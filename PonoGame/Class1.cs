@@ -8,6 +8,7 @@ namespace PonoGame
 {
     class GenericList<X> : IGenericList<X>
     {
+
         private X[] _internalStorage = new X[1];
 
         public int i;

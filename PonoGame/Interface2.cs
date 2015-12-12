@@ -15,6 +15,7 @@ namespace PonoGame
             int Count { get; }
             void Clear();
             bool Contains(int item);
+
         }
     }
 }
